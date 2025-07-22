@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <link rel="stylesheet" href="./css/style2.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+   />
+    <title>Portfolio Website</title>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#inicio" class="header__logo">JValentino.dev</a> 
+        <nav class="header__nav">
+            <a href="#inicio" class="nav__link nav__link--active">Inicio</a>
+            <a href="#servicios" class="nav__link">Servicios</a>
+            <a href="#habilidades" class="nav__link">Habilidades</a>
+            <a href="#educacion" class="nav__link">Educación</a>
+            <a href="#proyectos" class="nav__link">Proyectos</a>
+            <a href="#contacto" class="nav__link">Contáctame</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="intro" id="inicio"> <div class="intro__image-container">
+                <img src="./img/Avatar.png" alt="Avatar" class="intro__image"/>
+            </div>
+            <div class="intro__content">
+                <h1 class="intro__title">Hola, soy <span>Josep V.</span></h1>
+                <h3 class="text-animation">Soy <span></span></h3>
+                <p class="intro__description">
+                    Apasionado por la tecnología y el desarrollo de soluciones digitales, con experiencia en soporte técnico, diseño web y desarrollo de aplicaciones. Comprometido con la mejora continua y la eficiencia en cada proyecto.
+                </p>
+                <div class="intro__social">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#" class="btn btn--primary">Contáctame!</a>
+            </div>
+        </section>
+
+        <section class="services section-padding" id="servicios"> <h2 class="section__title">Mis Servicios</h2>
+    <div class="services__grid">
+        <div class="service-card">
+            <div class="service-card__icon">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3 class="service-card__title">Programador Frontend</h3>
+            <p class="service-card__description">
+                Desarrollo interfaces modernas, responsivas y funcionales utilizando tecnologías como HTML, CSS, JavaScript y frameworks como Bootstrap. Me enfoco en crear experiencias de usuario intuitivas y optimizadas para distintos dispositivos.
+            </p>
+        </div>
+        <div class="service-card">
+            <div class="service-card__icon">
+                <i class="fas fa-palette"></i>
+            </div>
+            <h3 class="service-card__title">Diseñador Gráfico</h3>
+            <p class="service-card__description">
+                Creo piezas visuales atractivas y coherentes, desde logotipos hasta contenido para redes sociales. Utilizo herramientas profesionales como CorelDRAW y Canva para comunicar ideas de forma creativa y efectiva.
+            </p>
+        </div>
+        <div class="service-card">
+            <div class="service-card__icon">
+                <i class="fas fa-headset"></i>
+            </div>
+            <h3 class="service-card__title">Soporte T.I.</h3>
+            <p class="service-card__description">
+                Brindo soluciones técnicas eficientes en mantenimiento de equipos, instalación de software, redes y resolución de problemas informáticos, asegurando el funcionamiento óptimo de los sistemas.
+            </p>
+        </div>
+        <div class="service-card">
+            <div class="service-card__icon">
+                <i class="fas fa-video"></i>
+            </div>
+            <h3 class="service-card__title">Editor de Video</h3>
+            <p class="service-card__description">
+                Edición y montaje de videos con un enfoque dinámico y profesional. Utilizo programas como Adobe Premiere o CapCut para dar vida a contenido audiovisual, ideal para redes sociales, proyectos personales o empresariales.
+            </p>
+        </div>
+    </div>
+</section>
+
+        <section class="section-padding" id="habilidades"> <div class="container skills-container">
+          <h2 class="sub-heading" id="text-skill">Mis Habilidades</h2>
+          <div class="skills-list">
+            <div class="skill-item">
+              <i class="fa-brands fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-js"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-bootstrap"></i>
+              <p>Bootstrap</p>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-git-alt"></i>
+              <p>Git</p>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-github-alt"></i>
+              <p>GitHub</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="education" id="educacion"> <h2 class="e-heading">Educación</h2>
+
+  <div class="timeline-items">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+        <div class="timeline-date">2022</div>
+        <div class="timeline-content">
+          <h3>Secundaria Completa</h3>
+          <p>Finalicé mis estudios secundarios con un enfoque en ciencia y tecnología, participando en ferias escolares y proyectos interdisciplinarios orientados a la informática y la innovación.</p>
+        </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>Estudios Técnicos</h3>
+          <p>Inicié estudios técnicos en Arquitectura de Plataformas y Servicios T.I., adquiriendo habilidades prácticas en programación, soporte técnico, ofimática, redes básicas.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+        <div class="timeline-date">2024</div>
+        <div class="timeline-content">
+          <h3>Estudios Universitarios – Ingeniería de Sistemas</h3>
+          <p>Actualmente curso la carrera de Ingeniería de Sistemas, adquiriendo conocimientos en programación, desarrollo web, bases de datos y metodologías ágiles.</p>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+
+        <section class="section-padding" id="proyectos"> <div class="container project-container">
+          <h2 class="sub-heading" id="text-proyect">Mis proyectos</h2>
+          <p class="project-intro">
+            Estos son algunos de los proyectos en los que he trabajado recientemente. He trabajado en una gran variedad de proyectos pequeños sitios web personales. Mi objetivo es crear interfaces responsivas e intuitivas que brinden una excelente experiencia de usuario.
+          </p>
+          <div class="project-list">
+            <div class="project-item">
+              <img src="./img/project-1.png" alt="Project 1" />
+              <div class="project-info">
+                <h3>Proyecto Web 1</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis obcaecati molestiae at aliquid, hic officiis?
+                </p>
+                <a href="#" class="prev-link"
+                  >Live Preview <i class="fa-solid fa-globe"></i></a
+                ><a href="#" class="code-link"
+                  >Code <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-item">
+              <img src="./img/project-2.png" alt="Project 2" />
+              <div class="project-info">
+                <h3>Proyecto Web 2</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis obcaecati molestiae at aliquid, hic officiis?
+                </p>
+                <a href="#" class="prev-link"
+                  >Live Preview <i class="fa-solid fa-globe"></i></a
+                ><a href="#" class="code-link"
+                  >Code <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-item">
+              <img src="./img/project-3.png" alt="Project 3" />
+              <div class="project-info">
+                <h3>Proyecto Web 3</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis obcaecati molestiae at aliquid, hic officiis?
+                </p>
+                <a href="#" class="prev-link"
+                  >Live Preview <i class="fa-solid fa-globe"></i></a
+                ><a href="#" class="code-link"
+                  >Code <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-item">
+              <img src="./img/project-4.png" alt="Project 4" />
+              <div class="project-info">
+                <h3>Proyecto Web 4</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis obcaecati molestiae at aliquid, hic officiis?
+                </p>
+                <a href="#" class="prev-link"
+                  >Live Preview <i class="fa-solid fa-globe"></i></a
+                ><a href="#" class="code-link"
+                  >Code <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-item">
+              <img src="./img/project-5.png" alt="Project 5" />
+              <div class="project-info">
+                <h3>Proyecto Web 5</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis obcaecati molestiae at aliquid, hic officiis?
+                </p>
+                <a href="#" class="prev-link"
+                  >Live Preview <i class="fa-solid fa-globe"></i></a
+                ><a href="#" class="code-link"
+                  >Code <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding contact-bg" id="contacto"> <div class="container contact-container">
+          <h2 class="sub-heading" id="text-contact">
+            Hagamos algo<br/>
+            increíble juntos!!!
+          </h2>
+          <form class="contact-form">
+            <input
+              type="email"
+              name="email"
+              placeholder="Ingresa tu correo electrónico"
+              required
+            />
+            <button type="submit" class="contact-btn">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="footer__container">
+    
+    <div class="footer__top">
+      <a href="#inicio" class="footer__logo">JValentino.dev</a> </div>
+
+    <div class="footer__middle">
+      <p class="footer__info"><i class="fa-solid fa-envelope"></i> josepvalentino974@gmail.com</p>
+      <p class="footer__info"><i class="fa-solid fa-location-dot"></i> La Unión, Huánuco, Perú</p>
+      <p class="footer__info"><i class="fa-solid fa-phone"></i> +51 919 717 196</p>
+    </div>
+
+    <div class="footer__social">
+      <a href="#" class="footer__social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" class="footer__social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" class="footer__social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; 2025 JValentino – Todos los derechos reservados.</p>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
